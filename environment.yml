@@ -1,0 +1,13 @@
+name: qi2
+dependencies:
+- python>=3.9
+- scipy
+- scikit-learn
+- h5py==3.2.1
+- matplotlib=3.4
+- pylatexenc
+- jupyterlab
+- pip
+- pip:
+  - qiskit-terra
+  - qiskit-aer
